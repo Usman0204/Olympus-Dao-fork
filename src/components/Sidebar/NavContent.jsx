@@ -84,7 +84,7 @@ function NavContent() {
       <Box className="dapp-sidebar-inner" display="flex" justifyContent="space-between" flexDirection="column">
         <div className="dapp-menu-top">
           <Box className="branding-header">
-            <Link href="https://olympusdao.finance" target="_blank">
+            <Link href="" target="_blank">
               <SvgIcon
                 color="primary"
                 component={OlympusIcon}
@@ -261,7 +261,7 @@ function NavContent() {
                     target="_blank"
                     className="external-site-link"
                   >
-                    <Typography variant="h6">
+                    {/* <Typography variant="h6">
                       <BridgeIcon />
                       <Trans>Bridge</Trans>
                       <SvgIcon
@@ -269,20 +269,20 @@ function NavContent() {
                         component={ArrowUpIcon}
                         className="external-site-link-icon"
                       />
-                    </Typography>
+                    </Typography> */}
                   </Link>
 
-                  <Box className="menu-divider">
+                  {/* <Box className="menu-divider">
                     <Divider />
-                  </Box>
+                  </Box> */}
 
-                  <Link href="https://pro.olympusdao.finance/" target="_blank" className="external-site-link">
+                  {/* <Link href="https://pro.olympusdao.finance/" target="_blank" className="external-site-link">
                     <Box display="flex" alignItems="center">
                       <SvgIcon component={ProIcon} color="primary" color="primary" viewBox="0 0 50 50" />
                       <Typography variant="h6">Olympus Pro</Typography>
                       <SvgIcon component={ArrowUpIcon} className="external-site-link-icon" />
                     </Box>
-                  </Link>
+                  </Link> */}
 
                   {/* <Link
                     component={NavLink}
